@@ -1,0 +1,15 @@
+{
+    "name": "ninhpham/demo",
+    "autoload": {
+        "psr-4": {
+            "Ninhpham\\Demo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ninh Pham",
+            "email": "ninhpham@gmail.com"
+        }
+    ],
+    "require": {}
+}
