@@ -3,12 +3,12 @@
 namespace Ninhpham\Demo\Controllers;
 
 use Illuminate\Http\Request;
-use Ninhpham\Demo\Inspire;
+use Ninhpham\Demo\Test;
 
 class DemoController {
 
-    public function __invoke(Inspire $inspire) {
-        $quote = $inspire->justDoIt();
+    public function __invoke(Test $test) {
+        $quote = $test->demo();
 
         return view('demo::demo', compact('quote'));
     }
